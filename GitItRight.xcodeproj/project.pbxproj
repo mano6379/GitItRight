@@ -22,6 +22,7 @@
 		D03A035018F37D25009CD832 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D03A034E18F37D25009CD832 /* InfoPlist.strings */; };
 		D03A035218F37D25009CD832 /* GitItRightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D03A035118F37D25009CD832 /* GitItRightTests.m */; };
 		D03A035D18F37EBA009CD832 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03A035C18F37EBA009CD832 /* TestViewController.m */; };
+		D03A036018F384F2009CD832 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03A035F18F384F2009CD832 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		D03A035118F37D25009CD832 /* GitItRightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitItRightTests.m; sourceTree = "<group>"; };
 		D03A035B18F37EBA009CD832 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		D03A035C18F37EBA009CD832 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		D03A035E18F384F2009CD832 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D03A035F18F384F2009CD832 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				D03A033818F37D25009CD832 /* Main.storyboard */,
 				D03A035B18F37EBA009CD832 /* TestViewController.h */,
 				D03A035C18F37EBA009CD832 /* TestViewController.m */,
+				D03A035E18F384F2009CD832 /* RootViewController.h */,
+				D03A035F18F384F2009CD832 /* RootViewController.m */,
 				D03A033B18F37D25009CD832 /* ViewController.h */,
 				D03A033C18F37D25009CD832 /* ViewController.m */,
 				D03A033E18F37D25009CD832 /* Images.xcassets */,
@@ -258,6 +263,7 @@
 				D03A033718F37D25009CD832 /* AppDelegate.m in Sources */,
 				D03A035D18F37EBA009CD832 /* TestViewController.m in Sources */,
 				D03A033318F37D25009CD832 /* main.m in Sources */,
+				D03A036018F384F2009CD832 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
