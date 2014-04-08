@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>48358848-F42C-46A5-954C-514BD722007B</string>
+	<string>9A78025A-E281-4377-B432-9A5DD0A1BE15</string>
 	<key>IDESourceControlProjectName</key>
 	<string>GitItRight</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>0726446C-7FF5-4A0C-A081-DAB06060F954</key>
-		<string>https://github.com/mano6379/GitItRight</string>
+		<key>56E990D3-8E60-4103-AED1-D5290243B3BB</key>
+		<string>https://github.com/mano6379/GitItRight.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>GitItRight.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>0726446C-7FF5-4A0C-A081-DAB06060F954</key>
+		<key>56E990D3-8E60-4103-AED1-D5290243B3BB</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/mano6379/GitItRight</string>
+	<string>https://github.com/mano6379/GitItRight.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>0726446C-7FF5-4A0C-A081-DAB06060F954</string>
+	<string>56E990D3-8E60-4103-AED1-D5290243B3BB</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>0726446C-7FF5-4A0C-A081-DAB06060F954</string>
+			<string>56E990D3-8E60-4103-AED1-D5290243B3BB</string>
 			<key>IDESourceControlWCCName</key>
 			<string>GitItRight</string>
 		</dict>
