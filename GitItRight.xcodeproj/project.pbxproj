@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEA9088418F37EA400AA77F6 /* NewFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA9088318F37EA400AA77F6 /* NewFeature.m */; };
 		D03A032718F37D25009CD832 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03A032618F37D25009CD832 /* Foundation.framework */; };
 		D03A032918F37D25009CD832 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03A032818F37D25009CD832 /* CoreGraphics.framework */; };
 		D03A032B18F37D25009CD832 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03A032A18F37D25009CD832 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CEA9088218F37EA400AA77F6 /* NewFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeature.h; sourceTree = "<group>"; };
+		CEA9088318F37EA400AA77F6 /* NewFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeature.m; sourceTree = "<group>"; };
 		D03A032318F37D25009CD832 /* GitItRight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitItRight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03A032618F37D25009CD832 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D03A032818F37D25009CD832 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				D03A033818F37D25009CD832 /* Main.storyboard */,
 				D03A033B18F37D25009CD832 /* ViewController.h */,
 				D03A033C18F37D25009CD832 /* ViewController.m */,
+				CEA9088218F37EA400AA77F6 /* NewFeature.h */,
+				CEA9088318F37EA400AA77F6 /* NewFeature.m */,
 				D03A033E18F37D25009CD832 /* Images.xcassets */,
 				D03A032D18F37D25009CD832 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D03A033D18F37D25009CD832 /* ViewController.m in Sources */,
+				CEA9088418F37EA400AA77F6 /* NewFeature.m in Sources */,
 				D03A033718F37D25009CD832 /* AppDelegate.m in Sources */,
 				D03A033318F37D25009CD832 /* main.m in Sources */,
 			);
@@ -456,6 +462,7 @@
 				D03A035718F37D25009CD832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D03A035818F37D25009CD832 /* Build configuration list for PBXNativeTarget "GitItRightTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				D03A035A18F37D25009CD832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
