@@ -21,6 +21,7 @@
 		D03A034818F37D25009CD832 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03A032A18F37D25009CD832 /* UIKit.framework */; };
 		D03A035018F37D25009CD832 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D03A034E18F37D25009CD832 /* InfoPlist.strings */; };
 		D03A035218F37D25009CD832 /* GitItRightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D03A035118F37D25009CD832 /* GitItRightTests.m */; };
+		D03A035D18F37EBA009CD832 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03A035C18F37EBA009CD832 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D03A034D18F37D25009CD832 /* GitItRightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitItRightTests-Info.plist"; sourceTree = "<group>"; };
 		D03A034F18F37D25009CD832 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D03A035118F37D25009CD832 /* GitItRightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitItRightTests.m; sourceTree = "<group>"; };
+		D03A035B18F37EBA009CD832 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		D03A035C18F37EBA009CD832 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				D03A033518F37D25009CD832 /* AppDelegate.h */,
 				D03A033618F37D25009CD832 /* AppDelegate.m */,
 				D03A033818F37D25009CD832 /* Main.storyboard */,
+				D03A035B18F37EBA009CD832 /* TestViewController.h */,
+				D03A035C18F37EBA009CD832 /* TestViewController.m */,
 				D03A033B18F37D25009CD832 /* ViewController.h */,
 				D03A033C18F37D25009CD832 /* ViewController.m */,
 				D03A033E18F37D25009CD832 /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			files = (
 				D03A033D18F37D25009CD832 /* ViewController.m in Sources */,
 				D03A033718F37D25009CD832 /* AppDelegate.m in Sources */,
+				D03A035D18F37EBA009CD832 /* TestViewController.m in Sources */,
 				D03A033318F37D25009CD832 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +462,7 @@
 				D03A035718F37D25009CD832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D03A035818F37D25009CD832 /* Build configuration list for PBXNativeTarget "GitItRightTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				D03A035A18F37D25009CD832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
