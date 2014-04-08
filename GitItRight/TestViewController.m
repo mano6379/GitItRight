@@ -8,7 +8,7 @@
 
 #import "TestViewController.h"
 
-@interface TestViewController ()
+@interface TestViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @end
 
@@ -29,10 +29,15 @@
     // Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    return 1;
+}
+
+-(UITableViewCell*) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return nil;
+    
 }
 
 /*
