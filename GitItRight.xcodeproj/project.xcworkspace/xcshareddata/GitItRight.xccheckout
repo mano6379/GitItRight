@@ -5,7 +5,11 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>9A78025A-E281-4377-B432-9A5DD0A1BE15</string>
+=======
+	<string>6892337D-613D-4D6E-9DBA-1CB4C9EDF292</string>
+>>>>>>> stoosevich
 	<key>IDESourceControlProjectName</key>
 	<string>GitItRight</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
